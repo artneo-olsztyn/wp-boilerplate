@@ -1,0 +1,18 @@
+{
+  "name": "custom-theme",
+  "version": "1.0.0",
+  "description": "frontend-wp-template",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "author": "Mariusz M",
+  "license": "MIT",
+  "dependencies": {
+    "@wordpress/scripts": "^27.2.0",
+    "node-sass": "^7.0.3",
+    "uikit": "^3.18.3"
+  }
+}

@@ -1,0 +1,20 @@
+.hidden-sm {
+     @media (max-width: $sm) {
+          display: none !important;
+     }
+}
+.hidden-md {
+     @media (max-width: $md) {
+          display: none !important;
+     }
+}
+.hidden-lg {
+     @media (max-width: $lg) {
+          display: none !important;
+     }
+}
+.hidden-xl {
+     @media (max-width: $xl) {
+          display: none !important;
+     }
+}
