@@ -79,6 +79,10 @@ h6 {
   bottom: 0;
 }
 
+main {
+  min-height: 100dvh;
+}
+
 .header {
   color: red;
 }

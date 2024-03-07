@@ -1,8 +1,5 @@
 <?php get_header() ?>
 <main class="uk-container">
-     frontpage
-<?php
-// Output Main Menu
-?>
+     <?php the_content(); ?>
 </main>
 <?php get_footer() ?>
