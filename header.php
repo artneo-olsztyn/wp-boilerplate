@@ -19,9 +19,7 @@
 
 
 
-     <?php if (is_front_page()): ?>
-
-     <?php endif; ?>
+     <?php /* if (is_front_page()): ?><?php endif; */?>
 
 
      <?php wp_head() ?>
@@ -35,7 +33,7 @@
                     <div uk-navbar="" class="uk-navbar">
                          <div class="uk-navbar-left">
 
-                              <a class="uk-navbar-item uk-logo" href="#">Logo</a>
+                              <a class="uk-navbar-item uk-logo" href="/">Logo</a>
 
                          </div>
                          <div class="desktop-menu uk-navbar-center hidden-sm">

@@ -6,13 +6,15 @@
                     <span class="uk-margin" uk-icon="icon: arrow-left; ratio: 1.8"></span>
                </a>
                <div class="site-title ">
-                    <h1>Single</h1>
+                    <h1>
+                         <code>
+                              Single.php
+                         </code>
+                    </h1>
                </div>
-               
-               <?php
-               // Output Main Menu
+
+               <?php         
                if (have_posts()) {
-                    // Loop through the post(s)
                     while (have_posts()) {
                          the_post();
                          ?>
