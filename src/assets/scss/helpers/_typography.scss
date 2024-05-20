@@ -1,0 +1,66 @@
+// ------------------------------------------------------------
+// @include font-face($name, $path, $weight: null, $style: null, $exts: woff2 woff);
+// Use only woff2, woff formats, both are required
+// Example: @include font-face('Font Name', $font-dir+'font-file-name', 400);
+// @include font-face('Open Sans', $open-sans-dir+'OpenSans-Regular', 400);
+// ------------------------------------------------------------
+// Default fonts directory
+
+$InterDIR: '../fonts/Inter/';
+
+/* inter */
+@font-face {
+     font-family: 'Inter';
+     src: url($InterDIR +'Inter-Light.eot');
+     src:
+          url($InterDIR + 'Inter-Light.eot?#iefix') format('embedded-opentype'),
+          url($InterDIR + 'Inter-Light.woff2') format('woff2'),
+          url($InterDIR + 'Inter-Light.woff') format('woff'),
+          url($InterDIR + 'Inter-Light.ttf') format('truetype'),
+          url($InterDIR + 'Inter-Light.svg#Inter-Light') format('svg');
+     font-weight: 300;
+     font-style: normal;
+     font-display: swap;
+}
+@font-face {
+     font-family: 'Inter';
+     src: url($InterDIR +'Inter-Regular.eot');
+     src:
+          url($InterDIR + 'Inter-Regular.eot?#iefix') format('embedded-opentype'),
+          url($InterDIR + 'Inter-Regular.woff2') format('woff2'),
+          url($InterDIR + 'Inter-Regular.woff') format('woff'),
+          url($InterDIR + 'Inter-Regular.ttf') format('truetype'),
+          url($InterDIR + 'Inter-Regular.svg#Inter-Regular') format('svg');
+     font-weight: 400;
+     font-style: normal;
+     font-display: swap;
+}
+@font-face {
+     font-family: 'Inter';
+     src: url($InterDIR +'Inter-SemiBold.eot');
+     src:
+          url($InterDIR + 'Inter-SemiBold.eot?#iefix') format('embedded-opentype'),
+          url($InterDIR + 'Inter-SemiBold.woff2') format('woff2'),
+          url($InterDIR + 'Inter-SemiBold.woff') format('woff'),
+          url($InterDIR + 'Inter-SemiBold.ttf') format('truetype'),
+          url($InterDIR + 'Inter-SemiBold.svg#Inter-SemiBold') format('svg');
+     font-weight: 600;
+     font-style: normal;
+     font-display: swap;
+}
+@font-face {
+     font-family: 'Inter';
+     src: url($InterDIR +'Inter-Bold.eot');
+     src:
+          url($InterDIR + 'Inter-Bold.eot?#iefix') format('embedded-opentype'),
+          url($InterDIR + 'Inter-Bold.woff2') format('woff2'),
+          url($InterDIR + 'Inter-Bold.woff') format('woff'),
+          url($InterDIR + 'Inter-Bold.ttf') format('truetype'),
+          url($InterDIR + 'Inter-Bold.svg#Inter-Bold') format('svg');
+     font-weight: 700;
+     font-style: normal;
+     font-display: swap;
+}
+
+
+
