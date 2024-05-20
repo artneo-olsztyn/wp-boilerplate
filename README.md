@@ -3,7 +3,6 @@
 
 Requires Node.js 14.0.0 or later, and npm 6.14.4 or later. It is not compatible with older versions.
 
-
 ## Installation
 
 Set up localWp via https://localwp.com/
@@ -24,6 +23,7 @@ Set up localWp via https://localwp.com/
   cd my-project
 ```
 ## Deployment
+### Remember to exclude .git files/node_modules/package.json while migrating to proper FTP
 
 To build files run
 
